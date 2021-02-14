@@ -5,7 +5,7 @@ public class Main {
         public static void main(String[] args) {
 
 
-            /* How the game works.
+            /* How the game works:
                You and your opponent individually chooses a move: Rock, Paper, or Scissors.
                You will either win, lose, or tie, based on you and your opponents move.
                Rock beats scissors, Scissors beats paper, Paper beats rock.

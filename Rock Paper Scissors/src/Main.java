@@ -8,14 +8,14 @@ public class Main {
             /* How the game works:
                You and your opponent individually chooses a move: Rock, Paper, or Scissors.
                You will either win, lose, or tie, based on you and your opponents move.
-               Rock beats scissors, Scissors beats paper, Paper beats rock.
+               Rock beats Scissors, Scissors beats Paper, Paper beats Rock.
                If you and your opponent make the same move, it's a tie.
             */
 
             // Storing options for moves that the user and computer will pick in the Rock Paper Scissors game.
-            String Choice1 = "Rock";
-            String Choice2 = "Paper";
-            String Choice3 = "Scissors";
+            String Choice1 = "rock";
+            String Choice2 = "paper";
+            String Choice3 = "scissors";
 
             // Prompt user to make their move.
             System.out.println("Choose (type) ONE of the following, case sensitive, then press ENTER: " +

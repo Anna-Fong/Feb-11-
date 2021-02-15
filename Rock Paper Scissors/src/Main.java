@@ -13,9 +13,9 @@ public class Main {
             */
 
             // Storing options for moves that the user and computer will pick in the Rock Paper Scissors game.
-            String Choice1 = "rock";
-            String Choice2 = "paper";
-            String Choice3 = "scissors";
+            String Choice1 = "Rock";
+            String Choice2 = "Paper";
+            String Choice3 = "Scissors";
 
             // Prompt user to make their move.
             System.out.println("Choose (type) ONE of the following, case sensitive, then press ENTER: " +

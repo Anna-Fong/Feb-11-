@@ -21,7 +21,6 @@ public class Main {
             System.out.println("Choose (type) ONE of the following, case sensitive, then press ENTER: " +
                     "\n" + Choice1 +  ", " + Choice2 + ", " + "or " + Choice3 + "\n...");
             // https://www.w3schools.com/java/java_user_input.asp
-            // https://hey-you-dumbass.go-get-a.life/5m0hFA
 
             // Scan user's move and display it. UserChoice stores the user's move.
             Scanner scan = new Scanner(System.in);

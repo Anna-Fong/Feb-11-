@@ -6,10 +6,10 @@ public class Main {
 
 
             /* How the game works:
-               You and your opponent individually chooses a move: Rock, Paper, or Scissors.
-               You will either win, lose, or tie, based on you and your opponents move.
+               User and opponent individually choose a move: Rock, Paper, or Scissors.
+               User will either win, lose, or tie, based on their move and their opponents move.
                Rock beats Scissors, Scissors beats Paper, Paper beats Rock.
-               If you and your opponent make the same move, it's a tie.
+               If the user and opponent makes the same move, it's a tie.
             */
 
             // Storing options for moves that the user and computer will pick in the Rock Paper Scissors game.
@@ -23,8 +23,8 @@ public class Main {
             // https://www.w3schools.com/java/java_user_input.asp
 
             // Scan user's move and display it. UserChoice stores the user's move.
-            Scanner scan = new Scanner(System.in);
-            String UserChoice = scan.next();
+            Scanner scanner = new Scanner(System.in);
+            String UserChoice = scanner.next();
                 System.out.println("...");
                 System.out.print("Your move: " + UserChoice);
 

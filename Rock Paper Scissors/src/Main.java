@@ -20,7 +20,6 @@ public class Main {
             // Prompt user to make their move.
             System.out.println("Choose (type) ONE of the following, case sensitive, then press ENTER: " +
                     "\n" + Choice1 +  ", " + Choice2 + ", " + "or " + Choice3 + "\n...");
-            // https://www.w3schools.com/java/java_user_input.asp
 
             // Scan user's move and display it. UserChoice stores the user's move.
             Scanner scanner = new Scanner(System.in);
@@ -32,7 +31,7 @@ public class Main {
             // If not valid, display an error message and end game. If valid, continue.
             if(!UserChoice.equals(Choice1) && !UserChoice.equals(Choice2) && !UserChoice.equals(Choice3)){
                 System.out.println("\n...");
-                System.out.println("Invalid move. \nGame over, you suck at following directions");
+                System.out.println("Invalid move. \nGame over, you suck at following directions.");
                 System.exit(1);
             } else {
                 System.out.println("");
